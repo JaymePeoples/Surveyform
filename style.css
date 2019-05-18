@@ -1,0 +1,25 @@
+html{
+  background-image: url("http://photos.newswire.ca/images/download/20120307_C2548_PHOTO_EN_10912.jpg"); 
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+body{
+	color: white;
+}
+input:required{
+	border: 4px;
+	background: #47d147;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border-radius: 4px;
+}
+textarea{
+	width: 300px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	font-family: Ariel sans-sarif;
+	font-size: 12px;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	resize: none;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GOT Survey</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1 id="title">GOT Survey</h1>
+	<p id="description">This is a simple survey about our favorite show Game of Thrones.</p>
+	<form id="survey-form">
+		<label for="name" id="name-label">Name:</label>
+		<br>
+		<input type="text" name="name" id="name" placeholder="Name" required>
+		<br>
+		<br>
+		<label for="email" id="email-label">Email:</label>
+		<br>
+		<input type="email" name="email" id="email" placeholder="Email" required>
+		<br> 
+		<br>
+		<label for="number" id="number-label">How would you rate Season 8 between 1-10?:</label>
+		<br>
+		<input type="number" name="number" id="number" min="1" max="10" placeholder="Choose a number between 1-10" required>
+		<br>
+		<h2><strong>Ruler</strong></h2>		
+		<p> Who should rule the realm?</p>
+		<select name="characters" id="dropdown">
+			<option value=""></option>
+			<option value="Arya">Arya</option>
+			<option value="Sansa">Sansa</option>
+			<option value="Daenerys">Daenerys</option>
+			<option value="Tyrion">Tyrion</option>
+			<option value="Cersi">Cersi</option>
+			<option value="Jon">Jon</option>
+			<option value="GreyWorm">Grey Worm</option>
+			<option value="Brienne">Ser Brienne</option>
+			<option value="Other">Other</option>
+			<option value="Nobody">No One</option>
+		</select>
+		<br>
+		<h2><strong>Houses</strong></h2>
+		<p> To which house would you belong? Choose one:</p>
+			<input type="radio" name="houses" value="Targaryen">House Targaryen<br>
+			<input type="radio" name="houses" value="Stark">House Stark<br>
+			<input type="radio" name="houses" value="Lannister">House Lannister<br>
+			<input type="radio" name="houses" value="GreyJoy">House Greyjoy<br>
+			<input type="radio" name="houses" value="Tarley">House Tarley<br>
+			<input type="radio" name="houses" value="Tyrell">House Tyrell<br>
+			<input type="radio" name="houses" value="Baratheon">House Baratheon<br>
+			<input type="radio" name="houses" value="Arryn">House Arryn<br>
+			<input type="radio" name="houses" value="Tully">House Tully<br>
+			<input type="radio" name="houses" value="Bolton">House Bolton<br>
+			<input type="radio" name="houses" value="Wildling">No house. I'd be a Wildling.<br>
+		<h2><strong>Locations</strong></h2>
+		<p>Which location in the seven kingdomes would you most likely vacation?<br>
+		   Choose one or more:</p>
+			<input type="checkbox" name="Location1" value="KingsLanding">King's Landing<br>
+			<input type="checkbox" name="Location2" value="The-Wall">The Wall<br>
+			<input type="checkbox" name="Location3" value="Winterfell">Winter Fell<br>
+			<input type="checkbox" name="Location4" value="TheVale">The Vale<br>
+			<input type="checkbox" name="Location5" value="Braavos">Braavos<br>
+			<input type="checkbox" name="Location6" value="TheIronIslands">The Iron Islands<br>
+			<input type="checkbox" name="Location7" value="Dorne">Dorne<br>
+			<input type="checkbox" name="Location8" value="North">North of The Wall<br>
+		<h2><strong>Comments</strong></h2>
+		<p>Any additional thoughts or comments:</p>
+		<textarea rows="5" columns="100">
+		</textarea>
+		<br>
+		<input type="submit" value="Submit" id="submit">
+	</form>
+</body>
+</html>
